@@ -1,6 +1,6 @@
 ## _hCNVexchange_ Milestones & Deliverables
 
-This page is thought as an entry point for the various milestones and deliverables ofthe _ Beacon and beyond — Implementation-driven standards and protocols for CNV discovery and data exchange_ (short: *hCNVexchange*) ELIXIR 2021-2023 inplementation study. The offical start of te study is in Summer 2021.
+This page is thought as an entry point for the various milestones and deliverables of the _Beacon and beyond — Implementation-driven standards and protocols for CNV discovery and data exchange_ (short: *hCNVexchange*) ELIXIR 2021-2023 inplementation study. The offical start of the project is in Summer 2021.
 
 
 ### M1.1 - Documentation of status (D1.1) for re-evaluation of project plan
