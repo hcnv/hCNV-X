@@ -10,6 +10,13 @@ should be incorporated in - preferably - Sequence Ontology but possibly also
 
 * Gene Ontology [copy number assessment subtree proposal](https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/568)
 
+#### CNV Ontology draft
+
+The entities represented here represent a basic _ad hoc_ hierarchy, based on
+common practices. The terms are specifically designed to be "sequence context agnostic",
+i.e. avoiding any statement about e.g. genomic placement of duplicated genomic regions
+or elements.
+
 
 ```
 id: SO:nnnn01
