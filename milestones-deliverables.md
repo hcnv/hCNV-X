@@ -44,7 +44,9 @@ This page is thought as an entry point for the various milestones and deliverabl
 #### M4.1 - Report of implementation of improvements to community data exchange file formats and validation tools
 
 #### D4.1 - Status report of current handling, limitations, needs of CNV specific file formats
+
 * discussions during [VCF development](./VCF-notes.md)
+* GA4GH VAriant Representation Specification[VRS interactions](./VRS-notes.md)
 
 #### D4.2 - Updated status report of current handling, limitations, needs of CNV specific file formats
 
