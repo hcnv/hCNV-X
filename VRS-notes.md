@@ -8,6 +8,7 @@ of CNV status or values.
 
 * Gene Ontology [copy number assessment subtree proposal](https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/568)
 
+A [local version of the proposal](./docs/cnv-ontology-proposal.md) is now open  for discussion & improvements.
 
 #### 2021-12-11: Relative CNV reasoning
 
