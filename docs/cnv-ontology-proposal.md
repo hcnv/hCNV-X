@@ -1,5 +1,16 @@
 ## CNV Ontology Proposal
 
+This document represents a draft of a basic CNV ontology, which is essential for
+a robust implementation of CNV representation and querying in standards such as
+e.g. VRS and Beacon.
+
+This document is though for h-CNV community discussion & editing. A mature version
+should be incorporated in - preferably - Sequence Ontology but possibly also
+[EFO](https://www.ebi.ac.uk/ols/ontologies/efo/terms?short_form=EFO_0004798).
+
+* Gene Ontology [copy number assessment subtree proposal](https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/568)
+
+
 ```
 id: SO:nnnn01
 label: copy number assessment
