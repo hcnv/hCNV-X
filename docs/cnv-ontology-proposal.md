@@ -17,6 +17,8 @@ common practices. The terms are specifically designed to be "sequence context ag
 i.e. avoiding any statement about e.g. genomic placement of duplicated genomic regions
 or elements.
 
+Also, while the terms carry an `SO` prefix & "compatible" local part, this is for
+drafting purposes only and will have to be provided by the adopting ontology.
 
 ```
 id: SO:nnnn01
