@@ -27,7 +27,11 @@ description: root class of the CNV ontology which can become a child of differen
   |
   |-id: SO:nnnn02
   | label: base ploidy
-  | description: relative allel count equal to regional base allele count
+  | description: >-
+  |   relative allel count equal to regional base allele count in the given sample:
+  |   * autosomal chromosome in human germline: 2
+  |   * X-chromosome in human male: 1
+  |   * triploid cancer cell line: 3 (i.e. a region w/ 2 copies would represent a low-level loss)
   |   |
   |   |-id: SO:nnnn04
   |     label: copy-neutral loss of heterozygosity
@@ -58,7 +62,16 @@ description: root class of the CNV ontology which can become a child of differen
           | description: gain of one or few genomic copies, operationally defined
           |
           |-id: SO:nnnn10
-            label: genomic amplification
-            description: gain of multiple genomic copies, e.g. more than from a
+            label: high-level copy number gain
+            description: >-
+              gain of multiple genomic copies, e.g. more than from a
               simple duplication of the base allele count; operationally defined
+              commonly but not consistently used for >=5 copies on a bi-allelic genome
+              |
+              |-id: SO:nnnn11
+                 label: focal genome amplification
+                 note: >-
+                   commonly used for localized multi-copy genome amplification events where the
+                   region does not extend >3Mb (varying 1-5Mb) and may exist in a large number of
+                   copies              
 ```
