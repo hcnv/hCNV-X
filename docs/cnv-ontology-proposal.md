@@ -8,7 +8,9 @@ This document is though for h-CNV community discussion & editing. A mature versi
 should be incorporated in - preferably - Sequence Ontology but possibly also
 [EFO](https://www.ebi.ac.uk/ols/ontologies/efo/terms?short_form=EFO_0004798).
 
-* Gene Ontology [copy number assessment subtree proposal](https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/568)
+* Sequence Ontology [copy number assessment subtree proposal](https://github.com/The-Sequence-Ontology/SO-Ontologies/issues/568)
+
+##### Update 2022-01-18: The subtree has been accepted into EFO and should appear there soon. The tree below has been updated accordingly. 
 
 #### CNV Ontology draft
 
@@ -21,57 +23,41 @@ Also, while the terms carry an `SO` prefix & "compatible" local part, this is fo
 drafting purposes only and will have to be provided by the adopting ontology.
 
 ```
-id: SO:nnnn01
+id: EFO:0030063
 label: copy number assessment
-description: root class of the CNV ontology which can become a child of different classes, e.g. referring to structural or to quantitative genome changes
   |
-  |-id: SO:nnnn02
-  | label: base ploidy
-  | description: >-
-  |   relative allel count equal to regional base allele count in the given sample:
-  |   * autosomal chromosome in human germline: 2
-  |   * X-chromosome in human male: 1
-  |   * triploid cancer cell line: 3 (i.e. a region w/ 2 copies would represent a low-level loss)
+  |-id: EFO:0030064
+  | label: regional base ploidy
   |   |
-  |   |-id: SO:nnnn04
+  |   |-id: EFO:0030065
   |     label: copy-neutral loss of heterozygosity
-  |     description: regional loss of heterozygosity w/o change of allele count
   |
-  |-id: SO:nnnn03
-    label: copy number variation
-    description: assertive root class for a copy number change ("CNV")
+  |-id: EFO:0030066
+    label: relative copy number variation
       |
-      |-id: SO:nnnn05
+      |-id: EFO:0030067
       | label: copy number loss
-      | description: copy number reduced compared to regional base allele count
       |   |
-      |   |-id: SO:nnnn07
-      |   | label: incomplete copy number loss
-      |   | description: deletion of fewer alles than the regional base allele count
+      |   |-id: EFO:0030068
+      |   | label: low-level copy number loss
       |   |
-      |   |-id: SO:nnnn08
+      |   |-id: EFO:0030069
       |     label: complete genomic deletion
-      |     description: deletion of all alleles of the genomic region or element
       |
-      |-id: SO:nnnn06
+      |-id: EFO:0030070
         label: copy number gain
-        description: copy number increased compared to regional base allele count
           |
-          |-id: SO:nnnn09
+          |-id: EFO:0030071
           | label: low-level copy number gain
-          | description: gain of one or few genomic copies, operationally defined
           |
-          |-id: SO:nnnn10
-            label: high-level copy number gain
-            description: >-
-              gain of multiple genomic copies, e.g. more than from a
-              simple duplication of the base allele count; operationally defined
-              commonly but not consistently used for >=5 copies on a bi-allelic genome
+          |-id: EFO:0030072
+             label: high-level copy number gain
+             note: commonly but not consistently used for >=5 copies on a bi-allelic genome region
               |
-              |-id: SO:nnnn11
+              |-id: EFO:0030073
                  label: focal genome amplification
                  note: >-
                    commonly used for localized multi-copy genome amplification events where the
                    region does not extend >3Mb (varying 1-5Mb) and may exist in a large number of
-                   copies              
+                   copies
 ```
