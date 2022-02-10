@@ -5,7 +5,6 @@ This page serves to collect information about CNV data collections maintained
 
 Please add your resources!
 
-
 --------------------------------------------------------------------------------
 
 ## xxxxxx
