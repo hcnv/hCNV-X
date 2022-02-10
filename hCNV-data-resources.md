@@ -5,6 +5,8 @@ This page serves to collect information about CNV data collections maintained
 
 Please add your resources!
 
+--------------------------------------------------------------------------------
+
 ## Progenetix
 
 ### Resource description
@@ -17,7 +19,55 @@ e.g. from chromosomal CGH or NGS based studies.
 Technically, Progenetix employs a custom implementation of the Beacon API on top
 of a MongoDB backend.
 
+### Online access
+
+* resource website: [progenetix.org](http://progenetix.org)
+* documentation: [docs.progenetix.org](http://docs.progenetix.org)
+* information & news: [info.progenetix.org](http://info.progenetix.org)
+
+### Data content
+
+* cancer genome profiles and associated biological and technical "metadata"
+  - clinical core data set where available (age, sex, follow-up status ...)
+  - diagnostic & other data mapped to ontologies & standard classification systems
+    * NCIT for cancer codes, TNM ...
+    * EFO for platforms ...
+    * UBERON, cellosaurus, PMID ...
+
 ### Data accessibility
 
-* open, no access-protected data
+* access restrictions: open, no access-protected data
 * CC-BY 4.0
+
+### Beacon status and steps needed for adoption
+
+* full implementation of Beacon v2 protocol (including prototypes)
+
+
+--------------------------------------------------------------------------------
+
+## xxxxxx
+
+### Resource description
+
+...
+
+### Online access
+
+* resource website: []()
+* documentation: []()
+
+### Data content
+
+...
+
+### Data accessibility
+
+* access restrictions: 
+* License: ...
+
+### Beacon status and steps needed for adoption
+
+* Planned?
+* Restrictions?
+
