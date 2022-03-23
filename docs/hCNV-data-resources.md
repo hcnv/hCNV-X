@@ -52,11 +52,11 @@ It is developed within the framework of the "National NGS / ACPA database" proje
 
 ### Data content
 
-Cuurently BANCCO collects CNV data identified through the network of diagnostic laboratories. As of March 2022, the database contains about 34,120 CNVs, 15,815 deletions and 18,266 duplications. These CNVs have been detected in more than 22,660 patients.
+Currently BANCCO collects CNV data identified through the network of French diagnostic laboratories. As of March 2022, the database contains about 34,120 CNVs, 15,815 deletions and 18,266 duplications. These CNVs have been detected in more than 22,660 patients. More details about collected data can be seen in the [BANCCO statistics page](https://bancco.fr/statistique) 
 
 ### Data accessibility
 
-* access restrictions: Data access is restricted to french diagnostic laboratories.
+* access restrictions: Data access is restricted to French diagnostic laboratories.
 * License: ...
 
 ### Beacon status and steps needed for adoption
@@ -64,7 +64,7 @@ Cuurently BANCCO collects CNV data identified through the network of diagnostic 
 * Planned?
   - We would like to implement BEACON v2 data standard to allow the discovery of CNVs reported in the BANCCO system. 
 * Restrictions
-  - We are planning to have 2 level of accessibility:
+  - We are planning to have 2 levels of accessibility:
     - public to allow data discovery, observability and matchmaking purposes
     - registered to access more detailled information about specific CNVs  
 
