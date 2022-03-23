@@ -32,6 +32,41 @@ Please add your resources!
 * Planned?
 * Restrictions?
 
+--------------------------------------------------------------------------------
+
+## BANCCO
+
+### Resource description
+
+BANCCO is the French national database of Constitutional CNVs. This resource has been developed to identify CNVs (Copy Number Variation) resulting from clinical diagnosis.
+The aim of this database is to collect phenotypic data from each patient as well as genotypic data to facilitate the interpretation of CNV in the first instance and to allow the identification of new genes involved in specific diseases.
+
+BANCCO was supported by the Fondation pour la Recherche Médicale and the funding has been extended throug a new grant from the ANR (Agence Nationale de la Recherche)
+It is developed within the framework of the "National NGS / ACPA database" project led by Prof. Damien Sanlaville with the participation of the Poitiers University Hospital (Dr. Frédéric Bilan), the University of Aix Marseille (Prof. Christophe Béroud) and the AChro-Puce network.
+
+
+### Online access
+
+* resource website: [bancco.fr](https://bancco.fr)
+* documentation: []()
+
+### Data content
+
+Cuurently BANCCO collects CNV data identified through the network of diagnostic laboratories. As of March 2022, the database contains about 34,120 CNVs, 15,815 deletions and 18,266 duplications. These CNVs have been detected in more than 22,660 patients.
+
+### Data accessibility
+
+* access restrictions: Data access is restricted to french diagnostic laboratories.
+* License: ...
+
+### Beacon status and steps needed for adoption
+
+* Planned?
+  - We would like to implement BEACON v2 data standard to allow the discovery of CNVs reported in the BANCCO system. 
+* Restrictions
+  - We are planning to have 2 level of accessibility:
+    - public to allow data discovery, observability and matchmaking purposes
+    - registered to access more detailled information about specific CNVs  
 
 --------------------------------------------------------------------------------
 
